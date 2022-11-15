@@ -1,0 +1,6 @@
+source;share/helloros/hook/pythonpath.ps1
+source;share/helloros/hook/pythonpath.dsv
+source;share/helloros/hook/pythonpath.sh
+source;share/helloros/hook/ament_prefix_path.ps1
+source;share/helloros/hook/ament_prefix_path.dsv
+source;share/helloros/hook/ament_prefix_path.sh

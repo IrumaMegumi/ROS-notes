@@ -1,0 +1,39 @@
+[0.334s] Invoking command in '/home/iruma/Desktop/helloROS_ws/src/helloros': PYTHONPATH=/home/iruma/Desktop/helloROS_ws/install/helloros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/helloros build --build-base /home/iruma/Desktop/helloROS_ws/build/helloros/build install --prefix /home/iruma/Desktop/helloROS_ws/install/helloros --record /home/iruma/Desktop/helloROS_ws/build/helloros/install.log --single-version-externally-managed
+[0.459s] running egg_info
+[0.459s] creating ../../build/helloros/helloros.egg-info
+[0.459s] writing ../../build/helloros/helloros.egg-info/PKG-INFO
+[0.459s] writing dependency_links to ../../build/helloros/helloros.egg-info/dependency_links.txt
+[0.459s] writing entry points to ../../build/helloros/helloros.egg-info/entry_points.txt
+[0.459s] writing requirements to ../../build/helloros/helloros.egg-info/requires.txt
+[0.459s] writing top-level names to ../../build/helloros/helloros.egg-info/top_level.txt
+[0.460s] writing manifest file '../../build/helloros/helloros.egg-info/SOURCES.txt'
+[0.460s] reading manifest file '../../build/helloros/helloros.egg-info/SOURCES.txt'
+[0.461s] writing manifest file '../../build/helloros/helloros.egg-info/SOURCES.txt'
+[0.461s] running build
+[0.461s] running build_py
+[0.461s] creating /home/iruma/Desktop/helloROS_ws/build/helloros/build
+[0.461s] creating /home/iruma/Desktop/helloROS_ws/build/helloros/build/lib
+[0.461s] creating /home/iruma/Desktop/helloROS_ws/build/helloros/build/lib/helloros
+[0.461s] copying helloros/hello.py -> /home/iruma/Desktop/helloROS_ws/build/helloros/build/lib/helloros
+[0.461s] copying helloros/__init__.py -> /home/iruma/Desktop/helloROS_ws/build/helloros/build/lib/helloros
+[0.461s] running install
+[0.461s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.461s]   warnings.warn(
+[0.461s] running install_lib
+[0.462s] creating /home/iruma/Desktop/helloROS_ws/install/helloros/lib/python3.10/site-packages/helloros
+[0.462s] copying /home/iruma/Desktop/helloROS_ws/build/helloros/build/lib/helloros/hello.py -> /home/iruma/Desktop/helloROS_ws/install/helloros/lib/python3.10/site-packages/helloros
+[0.462s] copying /home/iruma/Desktop/helloROS_ws/build/helloros/build/lib/helloros/__init__.py -> /home/iruma/Desktop/helloROS_ws/install/helloros/lib/python3.10/site-packages/helloros
+[0.462s] byte-compiling /home/iruma/Desktop/helloROS_ws/install/helloros/lib/python3.10/site-packages/helloros/hello.py to hello.cpython-310.pyc
+[0.462s] byte-compiling /home/iruma/Desktop/helloROS_ws/install/helloros/lib/python3.10/site-packages/helloros/__init__.py to __init__.cpython-310.pyc
+[0.462s] running install_data
+[0.463s] creating /home/iruma/Desktop/helloROS_ws/install/helloros/share/ament_index
+[0.463s] creating /home/iruma/Desktop/helloROS_ws/install/helloros/share/ament_index/resource_index
+[0.463s] creating /home/iruma/Desktop/helloROS_ws/install/helloros/share/ament_index/resource_index/packages
+[0.463s] copying resource/helloros -> /home/iruma/Desktop/helloROS_ws/install/helloros/share/ament_index/resource_index/packages
+[0.463s] copying package.xml -> /home/iruma/Desktop/helloROS_ws/install/helloros/share/helloros
+[0.463s] running install_egg_info
+[0.464s] Copying ../../build/helloros/helloros.egg-info to /home/iruma/Desktop/helloROS_ws/install/helloros/lib/python3.10/site-packages/helloros-0.0.0-py3.10.egg-info
+[0.464s] running install_scripts
+[0.478s] Installing node script to /home/iruma/Desktop/helloROS_ws/install/helloros/lib/helloros
+[0.478s] writing list of installed files to '/home/iruma/Desktop/helloROS_ws/build/helloros/install.log'
+[0.495s] Invoked command in '/home/iruma/Desktop/helloROS_ws/src/helloros' returned '0': PYTHONPATH=/home/iruma/Desktop/helloROS_ws/install/helloros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/helloros build --build-base /home/iruma/Desktop/helloROS_ws/build/helloros/build install --prefix /home/iruma/Desktop/helloROS_ws/install/helloros --record /home/iruma/Desktop/helloROS_ws/build/helloros/install.log --single-version-externally-managed

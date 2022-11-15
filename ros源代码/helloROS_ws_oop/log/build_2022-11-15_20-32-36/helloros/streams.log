@@ -1,0 +1,26 @@
+[0.331s] Invoking command in '/home/iruma/Desktop/helloROS_ws_oop/src/helloros': PYTHONPATH=/home/iruma/Desktop/helloROS_ws_oop/install/helloros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/helloros build --build-base /home/iruma/Desktop/helloROS_ws_oop/build/helloros/build install --prefix /home/iruma/Desktop/helloROS_ws_oop/install/helloros --record /home/iruma/Desktop/helloROS_ws_oop/build/helloros/install.log --single-version-externally-managed
+[0.458s] running egg_info
+[0.458s] writing ../../build/helloros/helloros.egg-info/PKG-INFO
+[0.458s] writing dependency_links to ../../build/helloros/helloros.egg-info/dependency_links.txt
+[0.458s] writing entry points to ../../build/helloros/helloros.egg-info/entry_points.txt
+[0.459s] writing requirements to ../../build/helloros/helloros.egg-info/requires.txt
+[0.459s] writing top-level names to ../../build/helloros/helloros.egg-info/top_level.txt
+[0.460s] reading manifest file '../../build/helloros/helloros.egg-info/SOURCES.txt'
+[0.460s] writing manifest file '../../build/helloros/helloros.egg-info/SOURCES.txt'
+[0.460s] running build
+[0.460s] running build_py
+[0.460s] copying helloros/hello.py -> /home/iruma/Desktop/helloROS_ws_oop/build/helloros/build/lib/helloros
+[0.461s] running install
+[0.461s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.461s]   warnings.warn(
+[0.461s] running install_lib
+[0.461s] copying /home/iruma/Desktop/helloROS_ws_oop/build/helloros/build/lib/helloros/hello.py -> /home/iruma/Desktop/helloROS_ws_oop/install/helloros/lib/python3.10/site-packages/helloros
+[0.461s] byte-compiling /home/iruma/Desktop/helloROS_ws_oop/install/helloros/lib/python3.10/site-packages/helloros/hello.py to hello.cpython-310.pyc
+[0.462s] running install_data
+[0.462s] running install_egg_info
+[0.463s] removing '/home/iruma/Desktop/helloROS_ws_oop/install/helloros/lib/python3.10/site-packages/helloros-0.0.0-py3.10.egg-info' (and everything under it)
+[0.463s] Copying ../../build/helloros/helloros.egg-info to /home/iruma/Desktop/helloROS_ws_oop/install/helloros/lib/python3.10/site-packages/helloros-0.0.0-py3.10.egg-info
+[0.463s] running install_scripts
+[0.477s] Installing node script to /home/iruma/Desktop/helloROS_ws_oop/install/helloros/lib/helloros
+[0.477s] writing list of installed files to '/home/iruma/Desktop/helloROS_ws_oop/build/helloros/install.log'
+[0.492s] Invoked command in '/home/iruma/Desktop/helloROS_ws_oop/src/helloros' returned '0': PYTHONPATH=/home/iruma/Desktop/helloROS_ws_oop/install/helloros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/helloros build --build-base /home/iruma/Desktop/helloROS_ws_oop/build/helloros/build install --prefix /home/iruma/Desktop/helloROS_ws_oop/install/helloros --record /home/iruma/Desktop/helloROS_ws_oop/build/helloros/install.log --single-version-externally-managed

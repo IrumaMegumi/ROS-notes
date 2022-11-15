@@ -265,7 +265,7 @@ colcon build --symlink-install
 
 ## 2.5 自己手写一个节点(基于ROS2)
 
-### 2.5.1 手写节点(使用Python)
+### 2.5.1 手写节点(使用Python-POP面向过程编程)
 
 结合前面我所讲述的ROS工作空间的结构，我们在手写节点时，首先要建立工作空间，及我们要写的节点所属的功能包。首先我们建立工作空间。
 
@@ -349,4 +349,58 @@ ros2 pkg create helloros --build-type ament_python --dependencies rclpy
 
 至此，使用Python手写helloROS节点就完成啦。
 
-### 2.5.1 手写节点(使用C++)
+### 2.5.2 手写节点(使用Python-OOP面向对象编程)
+
+代码如下：
+
+    import rclpy #ros client library的缩写
+    from rclpy.node import Node
+
+    #从Node继承过来的类
+    class WriterNode(Node):
+        def __init__(self,name):
+            super().__init__(name)
+            self.get_logger().info("Hello,ROS!")
+
+    #主函数部分
+    def main(args=None):
+        rclpy.init(args=args)
+        HelloROS=WriterNode("Helloros")
+        rclpy.spin(HelloROS)
+        rclpy.shutdown()
+
+写好后，别忘记了修改对应的setup.py的位置！！！！然后使用<code>colcon build</code>和<code>source install/setup.bash</code>添加资源，就可以编译了，下面输出Hello，ROS！
+
+下面说一下上方的代码是什么意思。上面的代码就是使用了一种OOP面向对象的思想编写的。首先建立类WriterNode，这个类是从前面的Node继承而来的。下方的__init__函数是在你给类建立对象的时候必须执行的函数，传递的第一个参数必须是self。函数体中，首先访问了基类Node的__init()__函数，其作用相当于给当前类建立对象，对象名称为name，后面为输出的内容。后面的主函数部分和前面POP没有什么区别，这里在此暂时略掉。
+
+关于在实际操作中可能遇到的坑，见后面2.6部分——避坑指南，里面会写到相关的注意事项。
+
+### 2.5.2 手写节点(使用C++)
+
+和手写Python节点一样，首先需要创立对应的工作空间和功能包。这里居间惠(没错，是本人)使用下面的语句创建工作空间和对应功能包：
+
+    mkdir -p Iruma/src
+    cd Iruma/src
+    ros2 pkg create Iruma_Megumi --build-type ament_cmake --dependenices rclcpp
+
+因为使用了C++来写节点，因此这里需要把对应的编译器改称ament_cmake，依赖改成C++对应的依赖rclcpp。
+
+
+## 2.6 避坑指南 
+
+<ol>
+<li>先保存，后编译
+
+ROS2编译器没有IDE，所以也没有Visual Studio那么善良，它不会在编译时帮你自动保存文件。如果大家遇到了输出总是和原来相同，但是你之前确实有修改代码的情况，请检查你是否之前保存了修改后的代码文件！！！所以一定要先保存，再运行。
+
+<li>第二次再次启动时找不到包了
+
+非常尴尬的一个问题，也可能是我前面命令行的问题。每次启动前，都要使用source加载对应的.bash可执行文件才行。
+
+<li>节点不是.py文件
+
+前面说的你可以把节点理解为.cpp文件，意思是在作用上相当于，但是，实际上，节点只是一个从Node里面继承过来的一个对象，里面有很多很多的函数执行功能。所以你在运行节点时，千万不要运行.py文件的名称，要运行节点的名称。
+
+不过，为了方便记忆，一般在一些大型程序中，往往是一个.py文件，一个节点定义，.py的命名和节点的对象名是一样的。但是也因此，很多人就固定认为，节点就是.py文件，这种想法是错误的。
+
+</ol>
