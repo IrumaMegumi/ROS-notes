@@ -1,0 +1,51 @@
+[4.632s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclpy/services/minimal_client': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client --record /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed
+[19.848s] running egg_info
+[19.848s] creating ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info
+[19.849s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[19.850s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[19.850s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[19.850s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[19.851s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[19.851s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[19.851s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[19.852s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[19.852s] running build
+[19.853s] running build_py
+[19.853s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build
+[19.854s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib
+[19.854s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[19.855s] copying examples_rclpy_minimal_client/client.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[19.855s] copying examples_rclpy_minimal_client/client_async.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[19.856s] copying examples_rclpy_minimal_client/client_async_callback.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[19.856s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[19.857s] copying examples_rclpy_minimal_client/__init__.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[19.857s] running install
+[19.857s] running install_lib
+[19.858s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[19.858s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[19.859s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[19.859s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[19.866s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[19.866s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[19.867s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-310.pyc
+[19.867s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-310.pyc
+[19.867s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-310.pyc
+[19.868s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-310.pyc
+[19.869s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-310.pyc
+[19.869s] running install_data
+[19.875s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/share/ament_index
+[19.875s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[19.881s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[19.882s] copying resource/examples_rclpy_minimal_client -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[19.882s] copying package.xml -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[19.883s] running install_egg_info
+[19.883s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client-0.15.1-py3.10.egg-info
+[19.884s] running install_scripts
+[19.884s] Installing client script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[19.884s] Installing client_async script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[19.885s] Installing client_async_callback script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[19.885s] Installing client_async_member_function script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[19.887s] writing list of installed files to '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/install.log'
+[19.889s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[19.890s]   warnings.warn(
+[20.048s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_client --record /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed

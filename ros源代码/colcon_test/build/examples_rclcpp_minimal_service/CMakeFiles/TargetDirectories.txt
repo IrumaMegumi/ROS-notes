@@ -1,0 +1,10 @@
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/examples_rclcpp_minimal_service_uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/service_main.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/test.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/edit_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/rebuild_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/list_install_components.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/install.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/install/local.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/install/strip.dir

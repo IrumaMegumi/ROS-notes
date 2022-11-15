@@ -1,0 +1,39 @@
+[1.342s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclpy/guard_conditions': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions --record /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed
+[2.058s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.058s]   warnings.warn(
+[2.058s] running egg_info
+[2.059s] creating ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info
+[2.059s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[2.059s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[2.060s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[2.060s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[2.060s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[2.061s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[2.061s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[2.061s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[2.061s] running build
+[2.062s] running build_py
+[2.062s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/build
+[2.064s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/build/lib
+[2.065s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[2.066s] copying examples_rclpy_guard_conditions/trigger_guard_condition.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[2.066s] copying examples_rclpy_guard_conditions/__init__.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[2.066s] running install
+[2.067s] running install_lib
+[2.067s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[2.067s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/trigger_guard_condition.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[2.068s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/__init__.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[2.068s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/trigger_guard_condition.py to trigger_guard_condition.cpython-310.pyc
+[2.069s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/__init__.py to __init__.cpython-310.pyc
+[2.069s] running install_data
+[2.069s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/share/ament_index
+[2.070s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+[2.070s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[2.071s] copying resource/examples_rclpy_guard_conditions -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[2.079s] copying package.xml -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[2.079s] running install_egg_info
+[2.079s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.1-py3.10.egg-info
+[2.080s] running install_scripts
+[2.080s] Installing trigger_guard_condition script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[2.080s] writing list of installed files to '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/install.log'
+[2.108s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclpy/guard_conditions' returned '0': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_guard_conditions --record /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed

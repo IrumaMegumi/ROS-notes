@@ -1,0 +1,12 @@
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/examples_rclcpp_cbg_executor_uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/ping.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/pong.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/ping_pong.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/test.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/edit_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/rebuild_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/list_install_components.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/install.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/install/local.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor/CMakeFiles/install/strip.dir

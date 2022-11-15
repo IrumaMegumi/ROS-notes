@@ -1,0 +1,85 @@
+[0.060s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor
+[1.011s] -- The C compiler identification is GNU 11.3.0
+[1.011s] -- The CXX compiler identification is GNU 11.3.0
+[1.011s] -- Detecting C compiler ABI info
+[1.012s] -- Detecting C compiler ABI info - done
+[1.012s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.013s] -- Detecting C compile features
+[1.013s] -- Detecting C compile features - done
+[1.013s] -- Detecting CXX compiler ABI info
+[1.013s] -- Detecting CXX compiler ABI info - done
+[1.013s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.013s] -- Detecting CXX compile features
+[1.013s] -- Detecting CXX compile features - done
+[1.013s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.014s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.047s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[1.068s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.072s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.080s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.094s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.117s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.189s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.191s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.283s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.315s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.360s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.548s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.666s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.778s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.779s] -- Configured cppcheck include dirs: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclcpp/executors/cbg_executor/include
+[1.779s] -- Configured cppcheck exclude dirs and/or files: 
+[1.919s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.919s] -- Configured cpplint exclude dirs and/or files: 
+[1.963s] -- Added test 'lint_cmake' to check CMake code style
+[2.142s] -- Added test 'uncrustify' to check C / C++ code style
+[2.142s] -- Configured uncrustify additional arguments: 
+[2.144s] -- Added test 'xmllint' to check XML markup files
+[2.146s] -- Configuring done
+[2.201s] -- Generating done
+[2.209s] -- Build files have been written to: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor
+[2.244s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor
+[2.246s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor -- -j16 -l16
+[5.375s] [ 30%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[5.376s] [ 30%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[5.376s] [ 30%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[5.376s] [ 40%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[5.378s] [ 60%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[5.378s] [ 60%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[5.379s] [ 70%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[34.405s] [ 80%] [32m[1mLinking CXX executable pong[0m
+[35.517s] [ 80%] Built target pong
+[35.878s] [ 90%] [32m[1mLinking CXX executable ping_pong[0m
+[36.337s] [100%] [32m[1mLinking CXX executable ping[0m
+[37.337s] [100%] Built target ping_pong
+[37.382s] [100%] Built target ping
+[37.412s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor -- -j16 -l16
+[37.447s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor
+[37.454s] -- Install configuration: ""
+[37.456s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[37.489s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping" to ""
+[37.491s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[37.524s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong" to ""
+[37.525s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[37.555s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong" to ""
+[37.556s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/include
+[37.557s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor
+[37.559s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[37.561s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[37.564s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[37.567s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[37.570s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[37.572s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[37.574s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[37.576s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[37.579s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[37.581s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[37.584s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[37.586s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[37.588s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[37.591s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[37.594s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.597s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[37.599s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[37.602s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[37.609s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_cbg_executor

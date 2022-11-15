@@ -1,0 +1,55 @@
+[1.383s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server --record /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[2.075s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.075s]   warnings.warn(
+[2.076s] running egg_info
+[2.076s] creating ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info
+[2.076s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[2.077s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[2.077s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[2.077s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[2.078s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[2.079s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.080s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.080s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.080s] running build
+[2.080s] running build_py
+[2.081s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build
+[2.081s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib
+[2.081s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.081s] copying examples_rclpy_minimal_action_server/server.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.081s] copying examples_rclpy_minimal_action_server/server_defer.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.082s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.082s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.082s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.083s] copying examples_rclpy_minimal_action_server/__init__.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.083s] running install
+[2.083s] running install_lib
+[2.084s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[2.085s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[2.085s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[2.085s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[2.086s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[2.086s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[2.086s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[2.086s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-310.pyc
+[2.087s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-310.pyc
+[2.087s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-310.pyc
+[2.087s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-310.pyc
+[2.087s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-310.pyc
+[2.088s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-310.pyc
+[2.088s] running install_data
+[2.088s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/share/ament_index
+[2.088s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index
+[2.088s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[2.089s] copying resource/examples_rclpy_minimal_action_server -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[2.089s] copying package.xml -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[2.089s] running install_egg_info
+[2.089s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.1-py3.10.egg-info
+[2.089s] running install_scripts
+[2.090s] Installing server script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.090s] Installing server_defer script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.090s] Installing server_not_composable script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.090s] Installing server_queue_goals script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.090s] Installing server_single_goal script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.091s] writing list of installed files to '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/install.log'
+[2.118s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_action_server --record /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed

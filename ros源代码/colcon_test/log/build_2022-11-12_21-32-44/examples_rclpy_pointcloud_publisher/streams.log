@@ -1,0 +1,39 @@
+[4.188s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclpy/topics/pointcloud_publisher': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher --record /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed
+[4.784s] running egg_info
+[4.785s] creating ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info
+[4.785s] writing ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[4.786s] writing dependency_links to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[4.787s] writing entry points to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[4.787s] writing requirements to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[4.787s] writing top-level names to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[4.787s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[4.796s] reading manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[4.808s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[4.809s] running build
+[4.810s] running build_py
+[4.811s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/build
+[4.813s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/build/lib
+[4.820s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[4.825s] copying examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[4.826s] copying examples_rclpy_pointcloud_publisher/__init__.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[4.829s] running install
+[4.855s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.855s]   warnings.warn(
+[4.856s] running install_lib
+[4.857s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[4.857s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[4.857s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/__init__.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[4.858s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py to pointcloud_publisher.cpython-310.pyc
+[4.858s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher/__init__.py to __init__.cpython-310.pyc
+[4.858s] running install_data
+[4.858s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/share/ament_index
+[4.858s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+[4.859s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[4.859s] copying resource/examples_rclpy_pointcloud_publisher -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[4.860s] copying package.xml -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[4.861s] running install_egg_info
+[4.864s] Copying ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher-0.15.1-py3.10.egg-info
+[4.915s] running install_scripts
+[4.990s] Installing pointcloud_publisher script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[5.009s] writing list of installed files to '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/install.log'
+[5.106s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclpy/topics/pointcloud_publisher' returned '0': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_pointcloud_publisher --record /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed

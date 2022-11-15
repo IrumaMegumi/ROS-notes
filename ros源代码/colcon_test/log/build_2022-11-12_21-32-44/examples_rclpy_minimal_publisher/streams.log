@@ -1,0 +1,47 @@
+[4.461s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher --record /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[19.726s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[19.728s]   warnings.warn(
+[19.740s] running egg_info
+[19.740s] creating ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[19.740s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[19.741s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[19.741s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[19.741s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[19.741s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[19.742s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[19.742s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[19.742s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[19.742s] running build
+[19.743s] running build_py
+[19.743s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build
+[19.743s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build/lib
+[19.743s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[19.743s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[19.744s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[19.744s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[19.744s] copying examples_rclpy_minimal_publisher/__init__.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[19.744s] running install
+[19.745s] running install_lib
+[19.745s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[19.745s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[19.745s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[19.746s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[19.746s] copying /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[19.746s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[19.746s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[19.747s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[19.747s] byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[19.747s] running install_data
+[19.747s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/share/ament_index
+[19.770s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[19.775s] creating /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[19.776s] copying resource/examples_rclpy_minimal_publisher -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[19.776s] copying package.xml -> /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[19.776s] running install_egg_info
+[19.777s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.1-py3.10.egg-info
+[19.777s] running install_scripts
+[19.777s] Installing publisher_local_function script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[19.777s] Installing publisher_member_function script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[19.778s] Installing publisher_old_school script to /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[19.778s] writing list of installed files to '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/install.log'
+[19.966s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclpy_minimal_publisher --record /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

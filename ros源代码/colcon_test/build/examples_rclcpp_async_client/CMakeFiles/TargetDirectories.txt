@@ -1,0 +1,10 @@
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_async_client/CMakeFiles/uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_async_client/CMakeFiles/examples_rclcpp_async_client_uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_async_client/CMakeFiles/client_main.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_async_client/CMakeFiles/test.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_async_client/CMakeFiles/edit_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_async_client/CMakeFiles/rebuild_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_async_client/CMakeFiles/list_install_components.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_async_client/CMakeFiles/install.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_async_client/CMakeFiles/install/local.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_async_client/CMakeFiles/install/strip.dir

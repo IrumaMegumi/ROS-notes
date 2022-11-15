@@ -1,0 +1,124 @@
+[0.065s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set
+[2.024s] -- The C compiler identification is GNU 11.3.0
+[2.024s] -- The CXX compiler identification is GNU 11.3.0
+[2.024s] -- Detecting C compiler ABI info
+[2.025s] -- Detecting C compiler ABI info - done
+[2.025s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.025s] -- Detecting C compile features
+[2.026s] -- Detecting C compile features - done
+[2.026s] -- Detecting CXX compiler ABI info
+[2.026s] -- Detecting CXX compiler ABI info - done
+[2.027s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.027s] -- Detecting CXX compile features
+[2.027s] -- Detecting CXX compile features - done
+[2.028s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.028s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.028s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.029s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.029s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.029s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.030s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[2.031s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.031s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.032s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.033s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.033s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.034s] -- Found rclcpp_components: 16.0.1 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.034s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.036s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.037s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.038s] -- Configured cppcheck include dirs: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclcpp/wait_set/include
+[2.039s] -- Configured cppcheck exclude dirs and/or files: 
+[2.114s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.114s] -- Configured cpplint exclude dirs and/or files: 
+[2.116s] -- Added test 'lint_cmake' to check CMake code style
+[2.153s] -- Added test 'uncrustify' to check C / C++ code style
+[2.153s] -- Configured uncrustify additional arguments: 
+[2.158s] -- Added test 'xmllint' to check XML markup files
+[2.169s] -- Configuring done
+[2.673s] -- Generating done
+[2.729s] -- Build files have been written to: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set
+[5.379s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set
+[5.399s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set -- -j16 -l16
+[21.146s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[21.146s] [  8%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[21.166s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[21.166s] [ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[21.167s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[21.167s] [ 25%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[21.167s] [ 29%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[21.167s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[21.168s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[21.168s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[21.168s] [ 45%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[25.781s] [ 50%] [32m[1mLinking CXX executable wait_set_listener[0m
+[25.875s] [ 54%] [32m[1mLinking CXX executable wait_set_talker[0m
+[26.458s] [ 54%] Built target wait_set_talker
+[26.492s] [ 54%] Built target wait_set_listener
+[28.619s] [ 58%] [32m[1mLinking CXX shared library libtalker.so[0m
+[29.323s] [ 58%] Built target talker
+[34.583s] [ 62%] [32m[1mLinking CXX executable executor_random_order[0m
+[34.964s] [ 66%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[35.702s] [ 66%] Built target executor_random_order
+[36.386s] [ 66%] Built target wait_set_topics_and_timer
+[37.136s] [ 70%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[37.238s] [ 75%] [32m[1mLinking CXX executable static_wait_set[0m
+[37.284s] [ 79%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[37.289s] [ 83%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[37.365s] [ 87%] [32m[1mLinking CXX executable wait_set[0m
+[37.559s] [ 91%] [32m[1mLinking CXX shared library liblistener.so[0m
+[37.837s] [ 91%] Built target thread_safe_wait_set
+[37.923s] [ 91%] Built target static_wait_set
+[38.036s] [ 91%] Built target wait_set_random_order
+[38.056s] [ 91%] Built target wait_set_topics_with_different_rates
+[38.080s] [ 91%] Built target wait_set
+[38.162s] [ 91%] Built target listener
+[38.177s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[39.966s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[40.103s] [100%] Built target wait_set_composed
+[40.124s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set -- -j16 -l16
+[40.154s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set
+[40.158s] -- Install configuration: ""
+[40.159s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[40.163s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker" to ""
+[40.164s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[40.168s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener" to ""
+[40.168s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/libtalker.so
+[40.181s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/libtalker.so" to ""
+[40.181s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/liblistener.so
+[40.214s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/liblistener.so" to ""
+[40.214s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[40.233s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set" to ""
+[40.233s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[40.251s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set" to ""
+[40.251s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[40.272s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set" to ""
+[40.273s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[40.293s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer" to ""
+[40.293s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[40.316s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order" to ""
+[40.316s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[40.337s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order" to ""
+[40.337s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[40.357s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates" to ""
+[40.357s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[40.359s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed" to ""
+[40.360s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[40.363s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[40.364s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[40.366s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[40.367s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[40.368s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[40.370s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[40.371s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[40.373s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[40.375s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[40.376s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[40.378s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[40.380s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[40.382s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[40.384s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[40.385s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[40.389s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_wait_set

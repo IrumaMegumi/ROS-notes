@@ -1,0 +1,6 @@
+source;share/examples_rclpy_minimal_subscriber/hook/pythonpath.ps1
+source;share/examples_rclpy_minimal_subscriber/hook/pythonpath.dsv
+source;share/examples_rclpy_minimal_subscriber/hook/pythonpath.sh
+source;share/examples_rclpy_minimal_subscriber/hook/ament_prefix_path.ps1
+source;share/examples_rclpy_minimal_subscriber/hook/ament_prefix_path.dsv
+source;share/examples_rclpy_minimal_subscriber/hook/ament_prefix_path.sh

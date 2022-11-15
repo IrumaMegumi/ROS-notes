@@ -1,0 +1,11 @@
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/action_server_member_functions.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/action_server_not_composable.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/test.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/edit_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/rebuild_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/list_install_components.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/install.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/install/local.dir
+/media/iruma/Data/AIR/ros学习记录_git/ros源代码/colcon_test/build/examples_rclcpp_minimal_action_server/CMakeFiles/install/strip.dir
