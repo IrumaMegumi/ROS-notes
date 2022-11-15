@@ -3,9 +3,13 @@
 
 <ol>
 <li>节点<br>
-这里的节点和数据结构中的节点是有很大区别的。ROS中的节点可以理解为实现一个功能的整体功能块。比如，在一个机器人系统中，需要实现如下功能：行走、导航、避障。在实现时，对于这些任务，我们希望他们能够并行执行（不能说机器人在导航时就不走了，在避障时就不导航了），因此需要将3个模块分别放在3个部分来负责，以一种特殊的通信方式来告知哪个功能被触发需要执行了。我们把负责一个功能的模块称为ROS系统的一个<strong>节点</strong>。
+这里的节点和数据结构中的节点是有很大区别的。ROS中的节点可以理解为实现一个功能的整体功能块。比如，在一个机器人系统中，需要实现如下功能：行走、导航、避障。在实现时，对于这些任务，我们希望他们能够并行执行（不能说机器人在导航时就不走了，在避障时就不导航了），因此需要将3个模块分别放在3个部分来负责，以一种特殊的通信方式来告知哪个功能被触发需要执行了。我们把负责一个功能的模块称为ROS系统的一个<strong>节点</strong>。你可以近似地把节点理解成C++文件中的一个个单独实现功能的.h和.cpp的结构，keil中的每个.cpp和.h。
 
 ROS的每一个节点在功能实现方面是相互独立的，互相不会影响。因此，开发者可以分模块开发，有利于提高效率。
+
+<li>功能包
+
+功能包是存储若干节点的集合，这些节点协同合作可以实现一个功能。相当于keil中你新建工程文件时下属的user、hardware那些文件夹。
 
 <li>通信<br>
 ROS系统之间各个节点的联系称为节点之间的通信。机器人就是根据整体的通信协调完成各个功能。ROS2为我们提供了4种通信方式，分别是话题(topic)、服务(service)、动作(action)、参数(parameter)，会在后面详细介绍。
@@ -38,7 +42,7 @@ ros2 node info 节点名
 ## 2.2 ROS工程的架构
 ### 2.2.1 工作空间和功能包
 
-ROS的工程和Visual Studio十分类似，是要以工程的形式打开的，而不是以一个个独立的代码形式运行。把ROS工程存储的整体叫做ROS的工作空间（workspace），工作空间包括：你所有实现功能的代码、编译产生的文件、编译后可以运行的可执行文件、安装文件等。在工作空间中，我们把实现一套代码的若干节点组成<strong>功能包</strong>。各个节点都在功能包当中。因此，三者的包含关系为：
+ROS的工程和Visual Studio十分类似，是要以工程的形式打开的，而不是以一个个独立的代码形式运行。把ROS工程存储的整体叫做ROS的工作空间（workspace），你可以把工作空间理解为Visual Studio的一个项目文件(.sln)或keil中的.vcproj。工作空间包括：你所有实现功能的代码、编译产生的文件、编译后可以运行的可执行文件、安装文件等。在工作空间中，我们把实现一套代码的若干节点组成<strong>功能包</strong>。各个节点都在功能包当中。因此，三者的包含关系为：
 
 <center>
 工作空间>功能包>节点
@@ -109,7 +113,7 @@ sudo apt install ros-humble-turtlesim
 使用如下指令：
 
 <code>
-ros2 pkg create 包名称 --编译类型 --dependencies 依赖名称
+ros2 pkg create 包名称 --build-type 编译类型 --dependencies 依赖名称
 </code>
 
 第一个参数包名称就是你创建的功能包名称，编译类型是你所写的功能包依据什么进行编译，有3种方式，分别是：cmake、ament_python、ament_cmake，第一个和第三个是编译C++的，第二个是编译Python程序用的。最后一项<code>--dependencies 依赖名</code>  可有可无，有的话，表示你的功能包需要依赖什么包进行工作。
@@ -145,7 +149,9 @@ ros2 pkg xml 功能包名称
 可以把其下属的xml文件内容显示出来。
 </ol>
 
-## 2.4 自己编译一个工作空间(基于ROS2和colcon)
+## 2.4 自己通过下载现成代码编译一个工作空间(基于ROS2和colcon)
+
+### 2.4.1 关于colcon编译的具体步骤
 
 colcon是功能包的构建工具，可以理解为一个编译器，用于编译代码生成可执行文件。其作用和ROS1中的catkin相同，但是和ROS1不同的是，ROS1在安装时自带catkin，但是ROS2在安装时不会自带编译工具colcon，需要自己手动安装，尴尬！
 
@@ -223,6 +229,124 @@ ros2 run examples_rclcpp_minimal_publisher publisher_member_function
 
 首先写完你的代码以后，使用<code>colcon build</code>编译整个代码部分，生成可执行文件(.bash，也许后面会有更多，随着我以后的学习会继续更新)，然后使用source install 在对应路径下加载资源，使用ros2 run运行相应节点即可。
 
+### 2.4.2 colcon的相关指令
+
+<ol>
+<li>只编译其中一个功能包
+
+指令：
+
+<code>
+colcon build --package-select 你的包名
+</code>
+
+使用上面的指令，把对应的包名添入，你就可以编译单独的一个包了。
+
+<li>运行编译包并测试
+
+指令：
+
+<code>
+colcon test
+</code>
+
+<li>允许通过更改src下的部分文件来更改install
+
+先说以下这个是什么意思，读起来大家也许会感觉有点怪怪的。在前面已经讲过，自己下载/手写完节点和功能包以后，使用colcon build进行编译的过程，编译后会产生一个叫做install的文件夹。但是此时，你的install文件夹里面可执行文件的内容将会不再与src中的代码有联系。换句话说，你在有src和install文件夹(之前编译过)的情况下，修改了src的代码并使用colcon build，编译完成后，你再去执行install文件夹中的可执行文件，它不会给你自动修改，你执行的内容还是原来的内容，🍀。
+
+需要使用如下指令：
+<code>
+colcon build --symlink-install
+</code>
+</ol>
+关于colcon的更多指令，可以参考ROS2的官方文档(not 官网)。具体地址如下：https://colcon.readthedocs.io/en/released/user/installation.html。
+
 至此，我们似乎还少了一样东西，自己手写一个节点并且编译。不过，可恶的官网好像只说了下载例程并且自己在例程基础上改。作为一个非常独立的作者，必须要拐棍那就很难受了。所以，下面会讲如何自己手写一个节点并且编译。
 
 ## 2.5 自己手写一个节点(基于ROS2)
+
+### 2.5.1 手写节点(使用Python)
+
+结合前面我所讲述的ROS工作空间的结构，我们在手写节点时，首先要建立工作空间，及我们要写的节点所属的功能包。首先我们建立工作空间。
+
+<code>
+mkdir -p ./helloROS_ws/src
+
+cd helloROS_ws/src
+</code>
+
+我们就完成了建立节点并且转到src文件夹下的任务，src下面就存储我们的所有功能包。注意：功能包不是文件夹，在ROS中有自己的创建方法！！！对于初学者，在手写节点的时候，非常容易把工作空间和功能包搞混，认为他们都是文件夹！！！！！
+
+下面我们在src文件夹下创建功能包。使用如下命令：
+
+<code>
+ros2 pkg create helloros --build-type ament_python --dependencies rclpy
+</code>
+
+说明：在创建Python节点时，编译器要选择ament_python，依赖项一定要有，对于Python节点，要依赖rclpy的库，rclpy是ROS的Python库客户端接口，不写--build-type选项默认为ament_cmake，你也可以在VScode终端下打开上面文件夹运行上面的create指令。
+
+创建完毕后，系统会在src下面生成一个helloros的文件夹，文件夹下面有如下内容：(目前我还不会Ubuntu截屏，截屏后会更新此处)
+
+<ul>
+<li>一个文件夹：名字和你的功能包命名相同，里面有一个__init__.py文件。这个文件夹也是你写节点的地方。
+<li>一个xml：里面存储了该功能包的所有配置信息。
+<li>一个.py文件：命名是setup.py，是配置信息的，不用管他。
+<li>一些空文件和文件夹，里面也放了一些文件，但是都是空的。
+</ul>
+
+熟悉了功能包文件的结构以后，我们就可以往里添加节点了。节点要添加在我前面说的那个位置，也就是在功能包下，有一个和功能包同名的文件下下面，节点的.py文件要与__init__.py放在一起。
+
+然后我们就可以在创建的节点文件里面写代码了。编写节点的代码步骤如下：
+
+<ol>
+<li>导入对应的package
+<li>初始化客户端库
+<li>新建节点
+<li>循环节点
+<li>关闭客户端
+</ol>
+
+具体实现的代码如下所示：
+
+
+    #------Step 1:导入库------
+    import rclpy #ros client library的缩写
+    from rclpy.node import Node
+
+    def main(args=None):
+        #------Step2:初始化客户端库------
+        rclpy.init(args=args)
+        #------Step 3:从Node类新建节点------
+        node=Node("helloROS")
+        node.get_logger().info("Hello,ROS")
+        #------Step 4:循环节点------
+        rclpy.spin(node)
+        #------Step 5:关闭节点------
+        rclpy.shutdown()
+
+每一步的做法已经在上面标出。下面作一些说明：
+<ul>
+<li>第一步中导入库，这里导入了rclpy(ros client library for Python)以及Python节点专用类Node，后面创建节点时就通过Node创建。
+<li>第二部中初始化使用rclpy中的init()函数初始化。注意：在linux中，需要给定main函数一个入口参数args，如果你不想输入任何值，令其为None即可，这个好像是linux风格规范，我也不清楚是为啥。
+<li>建立节点并让其打印输出信息。直接从Node类建立，括号里面是节点的名称，叫做"helloROS"。
+
+剩下的暂时想不到注意要点，后面会根据反馈补充。
+</ul>
+
+写完以后，我们还需要在功能包中配置节点信息，在setup.py中的最后一项<code>'console_scripts'</code>后面的中括号里面输入如下内容：
+
+<code>
+'node=helloros.hello:main'
+</code>
+
+第一个是你通过Node对象创建的节点变量node，后面的=号时赋值符号，就是我要把节点所在函数位置的信息给到node上，系统在调用node时就去后面的地址找。后面给出的是地址信息，也就是在helloROS文件夹中的hello.py文件里面，:表示在文件中的哪一个函数，是main()函数，直接写函数名就好。
+
+写完以后保存，开始进入编译阶段：
+
+在终端输入命令：<code>colcon build</code>编译节点，完成后，使用如下命令生成可执行文件：<code>source install/setup.bash</code>，然后使用<code>ros2 run helloros node</code>即可运行，看到它输出了hello，ROS。
+
+不过使用的时候要注意，关闭终端后，每次都需要使用<code>source install/setup.bash</code>加载节点才可以运行。
+
+至此，使用Python手写helloROS节点就完成啦。
+
+### 2.5.1 手写节点(使用C++)
