@@ -1,0 +1,10 @@
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma/CMakeFiles/uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma/CMakeFiles/Iruma_uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma/CMakeFiles/Iruma.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma/CMakeFiles/test.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma/CMakeFiles/edit_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma/CMakeFiles/rebuild_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma/CMakeFiles/list_install_components.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma/CMakeFiles/install.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma/CMakeFiles/install/local.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma/CMakeFiles/install/strip.dir

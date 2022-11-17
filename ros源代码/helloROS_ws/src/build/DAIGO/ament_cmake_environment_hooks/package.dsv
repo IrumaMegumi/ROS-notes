@@ -1,0 +1,4 @@
+source;share/DAIGO/local_setup.bash
+source;share/DAIGO/local_setup.dsv
+source;share/DAIGO/local_setup.sh
+source;share/DAIGO/local_setup.zsh

@@ -1,0 +1,16 @@
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/ament_index/resource_index/package_run_dependencies/DAIGO
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/ament_index/resource_index/parent_prefix_path/DAIGO
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/environment/ament_prefix_path.sh
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/environment/ament_prefix_path.dsv
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/environment/path.sh
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/environment/path.dsv
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/local_setup.bash
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/local_setup.sh
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/local_setup.zsh
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/local_setup.dsv
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/package.dsv
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/ament_index/resource_index/packages/DAIGO
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/cmake/DAIGOConfig.cmake
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/cmake/DAIGOConfig-version.cmake
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/package.xml
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/lib/DAIGO/DAIGO_node

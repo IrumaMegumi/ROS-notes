@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target DAIGO_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/DAIGO_node.dir/src/DAIGO.cpp.o[0m
+[100%] [32m[1mLinking CXX executable DAIGO_node[0m
+[100%] Built target DAIGO_node
+-- Install configuration: ""
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/ament_index/resource_index/package_run_dependencies/DAIGO
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/ament_index/resource_index/parent_prefix_path/DAIGO
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/environment/ament_prefix_path.sh
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/environment/ament_prefix_path.dsv
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/environment/path.sh
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/environment/path.dsv
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/local_setup.bash
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/local_setup.sh
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/local_setup.zsh
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/local_setup.dsv
+-- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/package.dsv
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/ament_index/resource_index/packages/DAIGO
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/cmake/DAIGOConfig.cmake
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/cmake/DAIGOConfig-version.cmake
+-- Up-to-date: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/share/DAIGO/package.xml
+-- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/lib/DAIGO/DAIGO_node
+-- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO/lib/DAIGO/DAIGO_node" to ""

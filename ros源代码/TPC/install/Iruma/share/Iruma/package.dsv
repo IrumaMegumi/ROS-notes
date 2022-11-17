@@ -1,0 +1,8 @@
+source;share/Iruma/hook/cmake_prefix_path.ps1
+source;share/Iruma/hook/cmake_prefix_path.dsv
+source;share/Iruma/hook/cmake_prefix_path.sh
+source;share/Iruma/local_setup.bash
+source;share/Iruma/local_setup.dsv
+source;share/Iruma/local_setup.ps1
+source;share/Iruma/local_setup.sh
+source;share/Iruma/local_setup.zsh

@@ -1,0 +1,10 @@
+/home/iruma/Desktop/Iruma/build/Iruma_Megumi/CMakeFiles/uninstall.dir
+/home/iruma/Desktop/Iruma/build/Iruma_Megumi/CMakeFiles/Iruma_Megumi_uninstall.dir
+/home/iruma/Desktop/Iruma/build/Iruma_Megumi/CMakeFiles/Iruma_node.dir
+/home/iruma/Desktop/Iruma/build/Iruma_Megumi/CMakeFiles/test.dir
+/home/iruma/Desktop/Iruma/build/Iruma_Megumi/CMakeFiles/edit_cache.dir
+/home/iruma/Desktop/Iruma/build/Iruma_Megumi/CMakeFiles/rebuild_cache.dir
+/home/iruma/Desktop/Iruma/build/Iruma_Megumi/CMakeFiles/list_install_components.dir
+/home/iruma/Desktop/Iruma/build/Iruma_Megumi/CMakeFiles/install.dir
+/home/iruma/Desktop/Iruma/build/Iruma_Megumi/CMakeFiles/install/local.dir
+/home/iruma/Desktop/Iruma/build/Iruma_Megumi/CMakeFiles/install/strip.dir

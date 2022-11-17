@@ -383,9 +383,102 @@ ros2 pkg create helloros --build-type ament_python --dependencies rclpy
     cd Iruma/src
     ros2 pkg create Iruma_Megumi --build-type ament_cmake --dependenices rclcpp
 
-因为使用了C++来写节点，因此这里需要把对应的编译器改称ament_cmake，依赖改成C++对应的依赖rclcpp。
+因为使用了C++来写节点，因此这里需要把对应的编译器改称ament_cmake，依赖改成C++对应的依赖rclcpp。创建完成后，会发现里面有如下文件夹：
 
+<ul>
+<li>一个include，里面是你创建的功能包名称。
+<li>一个空文件夹src。
+<li>一个cmakelist和一个xml配置文件。
+</ul>
 
+整体结构和大家对C++/C的认知相同，因此就不说啦。
+
+下面把节点存储在对应的文件夹里面。和前面的Python一样，我们的节点存储的位置在src文件夹下。节点程序的编写和Python一样。具体代码如下：
+
+    #include <rclcpp/rclcpp.hpp>
+
+    int main(int argc,char **argv)
+    {
+        rclcpp::init(argc,argv);
+        auto node=std::make_shared<rclcpp::Node>("Iruma");//定义节点node
+        RCLCPP_INFO(node->get_logger(),"I am GUTS.Iruma");//打印输出
+        rclcpp::spin(node);
+        rclcpp::shutdown();
+    }
+
+上面的代码着实有些难懂，下面说明以下具体的结构。
+
+rclcpp本身属于一个命名空间，所以，上面的init、spin、shutdown都使用的是::符号调用上面的函数。后面节点使用的是std中的make_shared定义。后面对应的“Iruma”是节点的名字，也就是编译时，INFO后面节点的名字。
+
+写完上面程序以后，还需要编写对应的CmakeList，在系统原有的CmakeList中最后添加下面内容：
+
+    add_executable(Iruma_node src/Iruma.cpp)
+    ament_target_dependencies(Iruma_node rclcpp)
+
+    install(TARGETS
+    Iruma_node
+    DESTINATION lib/${PROJECT_NAME}
+    )
+
+注意：不同于Python的是，add_executalbe中，第一个选项中的Iruma_node是真正的节点名称，也就是你在ros2 run的时候要运行的节点。
+
+写完后，就可以进行编译运行了。
+
+    colcon build
+    source install/setup.bash
+    ros2 run Iruma_Megumi Iruma_node
+你可以看到输出如下所示：
+
+    [INFO] [1668657826.595085209] [Iruma]: I am GUTS.Iruma
+
+可以看到，[INFO]后面的节点名字和make_shared中定义的节点名称相同，运行时的ros2 run后面的节点变量名称和我们在cmakelist中给出的节点变量相同。可见，在这里面，CMake直接把.cpp文件当成了节点。
+
+使用OOP思想编写节点的程序如下所示：
+
+    #include <rclcpp/rclcpp.hpp>
+    using namespace rclcpp;
+
+    class UltramanNode:public Node{
+    private:
+
+    public:
+        UltramanNode(std::string name):Node(name)
+    {
+        RCLCPP_INFO(this->get_logger(),"I am ultraman %s",name.c_str());
+    }
+    };
+
+    int main(int argc,char **argv)
+    {
+        init(argc,argv);
+        auto node=std::make_shared<UltramanNode>("Tiga");
+        spin(node);
+        shutdown();
+    }
+
+在上面的程序中，我们使用了命名空间rclcpp，因此和前面的程序相比，对于上面的init、spin、shutdown函数，就都不用写rclcpp::了。这里我们把奥特曼抽象成一个类，这个类继承于rclcpp中的Node类。在构造函数中把奥特曼的名称作为参数赋值进去。上面的源代码在文件夹helloros_ws/src的DAIGO功能包中。
+
+写完后，再次配置cmakelist，代码同上。
+
+    add_executable(DAIGO src/Iruma.cpp)
+    ament_target_dependencies(DAIGO rclcpp)
+
+    install(TARGETS
+    DAIGO
+    DESTINATION lib/${PROJECT_NAME}
+    )
+
+由于在上面的文件夹当中，出现了2个节点，但是我们实际编译时只需要写一个，因此colcon build也要作出相应改动，不然2个就都给你编译一遍。
+
+改动如下：
+
+<code>
+colcon build改动为
+
+colcon build --packages-select DAIGO
+</code>
+
+这样我们就只编译了大古所在的功能包。
 ## 2.6 避坑指南 
 
 <ol>

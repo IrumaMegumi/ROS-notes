@@ -1,0 +1,16 @@
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/ament_index/resource_index/package_run_dependencies/Iruma_Megumi
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/ament_index/resource_index/parent_prefix_path/Iruma_Megumi
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/environment/ament_prefix_path.sh
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/environment/ament_prefix_path.dsv
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/environment/path.sh
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/environment/path.dsv
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/local_setup.bash
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/local_setup.sh
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/local_setup.zsh
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/local_setup.dsv
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/package.dsv
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/ament_index/resource_index/packages/Iruma_Megumi
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/cmake/Iruma_MegumiConfig.cmake
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/cmake/Iruma_MegumiConfig-version.cmake
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/share/Iruma_Megumi/package.xml
+/home/iruma/Desktop/Iruma/install/Iruma_Megumi/lib/Iruma_Megumi/Iruma_node

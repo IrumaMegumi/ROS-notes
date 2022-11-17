@@ -1,0 +1,6 @@
+Invoking command in '/home/iruma/Desktop/Iruma/build/Iruma_Megumi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/iruma/Desktop/Iruma/src/Iruma_Megumi -DCMAKE_INSTALL_PREFIX=/home/iruma/Desktop/Iruma/install/Iruma_Megumi
+Invoked command in '/home/iruma/Desktop/Iruma/build/Iruma_Megumi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/iruma/Desktop/Iruma/src/Iruma_Megumi -DCMAKE_INSTALL_PREFIX=/home/iruma/Desktop/Iruma/install/Iruma_Megumi
+Invoking command in '/home/iruma/Desktop/Iruma/build/Iruma_Megumi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iruma/Desktop/Iruma/build/Iruma_Megumi -- -j16 -l16
+Invoked command in '/home/iruma/Desktop/Iruma/build/Iruma_Megumi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iruma/Desktop/Iruma/build/Iruma_Megumi -- -j16 -l16
+Invoking command in '/home/iruma/Desktop/Iruma/build/Iruma_Megumi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iruma/Desktop/Iruma/build/Iruma_Megumi
+Invoked command in '/home/iruma/Desktop/Iruma/build/Iruma_Megumi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iruma/Desktop/Iruma/build/Iruma_Megumi

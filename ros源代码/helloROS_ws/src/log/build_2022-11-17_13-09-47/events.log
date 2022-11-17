@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (-) JobUnselected: {'identifier': 'helloros'}
+[0.000582] (DAIGO) JobQueued: {'identifier': 'DAIGO', 'dependencies': OrderedDict()}
+[0.000731] (DAIGO) JobStarted: {'identifier': 'DAIGO'}
+[0.009197] (DAIGO) JobProgress: {'identifier': 'DAIGO', 'progress': 'cmake'}
+[0.010512] (DAIGO) JobProgress: {'identifier': 'DAIGO', 'progress': 'build'}
+[0.011205] (DAIGO) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO', '--', '-j16', '-l16'], 'cwd': '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'iruma'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/iruma'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws'), ('TERM_PROGRAM_VERSION', '1.73.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2040'), ('SYSTEMD_EXEC_PID', '2434'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4490'), ('COLCON_PREFIX_PATH', '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iruma'), ('JOURNAL_STREAM', '8:41222'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'iruma'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/iruma-Legion-Y7000P-IAH7:@/tmp/.ICE-unix/2415,unix/iruma-Legion-Y7000P-IAH7:/tmp/.ICE-unix/2415'), ('INVOCATION_ID', '076a8c8d7ba44b92a29d12e4bed87ae7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f2cb2e1b90.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/install/DAIGO:/opt/ros/humble')]), 'shell': False}
+[0.031958] (DAIGO) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099204] (-) TimerEvent: {}
+[0.132616] (DAIGO) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.152062] (DAIGO) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.153301] (DAIGO) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.156974] (DAIGO) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.163821] (DAIGO) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.173464] (DAIGO) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199325] (-) TimerEvent: {}
+[0.210731] (DAIGO) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.211651] (DAIGO) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.289012] (DAIGO) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299441] (-) TimerEvent: {}
+[0.384163] (DAIGO) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.399641] (-) TimerEvent: {}
+[0.418516] (DAIGO) StderrLine: {'line': b'WARNING: Package name "DAIGO" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[0.444071] (DAIGO) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.444596] (DAIGO) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.444750] (DAIGO) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.447791] (DAIGO) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.456418] (DAIGO) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.456636] (DAIGO) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.457539] (DAIGO) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.461286] (DAIGO) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.468522] (DAIGO) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (add_executable):\n'}
+[0.468775] (DAIGO) StderrLine: {'line': b'  Cannot find source file:\n'}
+[0.468915] (DAIGO) StderrLine: {'line': b'\n'}
+[0.469049] (DAIGO) StderrLine: {'line': b'    src/Iruma.cpp\n'}
+[0.469207] (DAIGO) StderrLine: {'line': b'\n'}
+[0.469331] (DAIGO) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[0.469459] (DAIGO) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[0.469583] (DAIGO) StderrLine: {'line': b'\n'}
+[0.469709] (DAIGO) StderrLine: {'line': b'\x1b[0m\n'}
+[0.469835] (DAIGO) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (add_executable):\n'}
+[0.469952] (DAIGO) StderrLine: {'line': b'  No SOURCES given to target: DAIGO_node\n'}
+[0.470088] (DAIGO) StderrLine: {'line': b'\n'}
+[0.470218] (DAIGO) StderrLine: {'line': b'\x1b[0m\n'}
+[0.470338] (DAIGO) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[0.483152] (DAIGO) StderrLine: {'line': b'gmake: *** [Makefile:226\xef\xbc\x9acmake_check_build_system] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.485771] (DAIGO) CommandEnded: {'returncode': 2}
+[0.499773] (-) TimerEvent: {}
+[0.561303] (DAIGO) JobEnded: {'identifier': 'DAIGO', 'rc': 2}
+[0.572391] (-) EventReactorShutdown: {}

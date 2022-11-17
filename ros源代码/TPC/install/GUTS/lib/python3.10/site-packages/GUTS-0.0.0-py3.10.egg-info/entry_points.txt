@@ -1,0 +1,3 @@
+[console_scripts]
+GUTS = GUTS.GUTS:main
+

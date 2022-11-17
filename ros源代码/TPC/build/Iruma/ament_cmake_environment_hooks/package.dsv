@@ -1,0 +1,4 @@
+source;share/Iruma/local_setup.bash
+source;share/Iruma/local_setup.dsv
+source;share/Iruma/local_setup.sh
+source;share/Iruma/local_setup.zsh

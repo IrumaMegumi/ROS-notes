@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/GUTS/GUTS.egg-info/PKG-INFO
+../../build/GUTS/GUTS.egg-info/SOURCES.txt
+../../build/GUTS/GUTS.egg-info/dependency_links.txt
+../../build/GUTS/GUTS.egg-info/entry_points.txt
+../../build/GUTS/GUTS.egg-info/requires.txt
+../../build/GUTS/GUTS.egg-info/top_level.txt
+../../build/GUTS/GUTS.egg-info/zip-safe
+GUTS/GUTS.py
+GUTS/__init__.py
+resource/GUTS
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

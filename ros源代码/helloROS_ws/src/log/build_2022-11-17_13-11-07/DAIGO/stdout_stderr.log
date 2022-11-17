@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target DAIGO_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/DAIGO_node.dir/src/DAIGO.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/DAIGO/src/DAIGO.cpp:1[m[K:
+[01m[K/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/DAIGO/src/DAIGO.cpp:[m[K In constructor ‘[01m[KUltramanNode::UltramanNode(std::string)[m[K’:
+[01m[K/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/DAIGO/src/DAIGO.cpp:10:60:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::c_str() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+   10 |     RCLCPP_INFO(this->get_logger(),"I am ultraman %s",[01;31m[Kname.c_str[m[K);
+      |                                                       [01;31m[K~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/DAIGO/src/DAIGO.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:2320:7:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2320 |       [01;36m[Kc_str[m[K() const _GLIBCXX_NOEXCEPT
+      |       [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/DAIGO_node.dir/build.make:76：CMakeFiles/DAIGO_node.dir/src/DAIGO.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/DAIGO_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

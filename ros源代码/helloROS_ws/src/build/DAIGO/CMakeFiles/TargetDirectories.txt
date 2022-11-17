@@ -1,0 +1,10 @@
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO/CMakeFiles/uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO/CMakeFiles/DAIGO_uninstall.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO/CMakeFiles/DAIGO_node.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO/CMakeFiles/test.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO/CMakeFiles/edit_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO/CMakeFiles/rebuild_cache.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO/CMakeFiles/list_install_components.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO/CMakeFiles/install.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO/CMakeFiles/install/local.dir
+/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/helloROS_ws/src/build/DAIGO/CMakeFiles/install/strip.dir

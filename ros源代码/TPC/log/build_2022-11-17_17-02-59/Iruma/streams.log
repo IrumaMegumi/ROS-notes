@@ -1,0 +1,64 @@
+[0.009s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/src/Iruma -DCMAKE_INSTALL_PREFIX=/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma
+[0.089s] -- The C compiler identification is GNU 11.3.0
+[0.163s] -- The CXX compiler identification is GNU 11.3.0
+[0.172s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.272s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.346s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.461s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.532s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.567s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.569s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.576s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.599s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.646s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.647s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.702s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.721s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.750s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.855s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.891s] WARNING: Package name "Iruma" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.924s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.924s] -- Configured cppcheck include dirs: 
+[0.924s] -- Configured cppcheck exclude dirs and/or files: 
+[0.927s] -- Added test 'lint_cmake' to check CMake code style
+[0.935s] -- Added test 'uncrustify' to check C / C++ code style
+[0.935s] -- Configured uncrustify additional arguments: 
+[0.937s] -- Added test 'xmllint' to check XML markup files
+[0.943s] -- Configuring done
+[0.968s] -- Generating done
+[0.973s] -- Build files have been written to: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma
+[0.979s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/src/Iruma -DCMAKE_INSTALL_PREFIX=/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma
+[0.980s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma -- -j16 -l16
+[1.010s] [ 50%] [32mBuilding CXX object CMakeFiles/Iruma.dir/src/Iruma.cpp.o[0m
+[2.677s] [100%] [32m[1mLinking CXX executable Iruma[0m
+[2.764s] [100%] Built target Iruma
+[2.770s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma -- -j16 -l16
+[2.790s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma
+[2.794s] -- Install configuration: ""
+[2.795s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/ament_index/resource_index/package_run_dependencies/Iruma
+[2.798s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/ament_index/resource_index/parent_prefix_path/Iruma
+[2.801s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/environment/ament_prefix_path.sh
+[2.802s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/environment/ament_prefix_path.dsv
+[2.804s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/environment/path.sh
+[2.806s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/environment/path.dsv
+[2.807s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/local_setup.bash
+[2.809s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/local_setup.sh
+[2.811s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/local_setup.zsh
+[2.812s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/local_setup.dsv
+[2.814s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/package.dsv
+[2.817s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/ament_index/resource_index/packages/Iruma
+[2.819s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/cmake/IrumaConfig.cmake
+[2.821s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/cmake/IrumaConfig-version.cmake
+[2.822s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/share/Iruma/package.xml
+[2.825s] -- Installing: /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/lib/Iruma/Iruma
+[2.827s] -- Set runtime path of "/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/Iruma/lib/Iruma/Iruma" to ""
+[2.829s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/Iruma
