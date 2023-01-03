@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'GUTS=GUTS.GUTS:main'
+            'GUTSNode=GUTS.GUTS:main'
         ],
     },
 )

@@ -1,0 +1,23 @@
+[0.369s] Invoking command in '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/src/GUTS': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/GUTS build --build-base /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/GUTS/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS --record /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/GUTS/install.log --single-version-externally-managed
+[0.510s] running egg_info
+[0.511s] writing ../../build/GUTS/GUTS.egg-info/PKG-INFO
+[0.511s] writing dependency_links to ../../build/GUTS/GUTS.egg-info/dependency_links.txt
+[0.511s] writing entry points to ../../build/GUTS/GUTS.egg-info/entry_points.txt
+[0.512s] writing requirements to ../../build/GUTS/GUTS.egg-info/requires.txt
+[0.512s] writing top-level names to ../../build/GUTS/GUTS.egg-info/top_level.txt
+[0.514s] reading manifest file '../../build/GUTS/GUTS.egg-info/SOURCES.txt'
+[0.516s] writing manifest file '../../build/GUTS/GUTS.egg-info/SOURCES.txt'
+[0.516s] running build
+[0.516s] running build_py
+[0.517s] running install
+[0.517s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.517s]   warnings.warn(
+[0.517s] running install_lib
+[0.520s] running install_data
+[0.521s] running install_egg_info
+[0.523s] removing '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS/lib/python3.10/site-packages/GUTS-0.0.0-py3.10.egg-info' (and everything under it)
+[0.525s] Copying ../../build/GUTS/GUTS.egg-info to /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS/lib/python3.10/site-packages/GUTS-0.0.0-py3.10.egg-info
+[0.531s] running install_scripts
+[0.546s] Installing GUTSNode script to /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS/lib/GUTS
+[0.547s] writing list of installed files to '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/GUTS/install.log'
+[0.562s] Invoked command in '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/src/GUTS' returned '0': PYTHONPATH=/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/GUTS build --build-base /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/GUTS/build install --prefix /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS --record /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/GUTS/install.log --single-version-externally-managed

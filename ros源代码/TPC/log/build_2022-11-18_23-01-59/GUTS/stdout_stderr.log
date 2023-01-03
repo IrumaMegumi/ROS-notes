@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/GUTS/GUTS.egg-info/PKG-INFO
+writing dependency_links to ../../build/GUTS/GUTS.egg-info/dependency_links.txt
+writing entry points to ../../build/GUTS/GUTS.egg-info/entry_points.txt
+writing requirements to ../../build/GUTS/GUTS.egg-info/requires.txt
+writing top-level names to ../../build/GUTS/GUTS.egg-info/top_level.txt
+reading manifest file '../../build/GUTS/GUTS.egg-info/SOURCES.txt'
+writing manifest file '../../build/GUTS/GUTS.egg-info/SOURCES.txt'
+running build
+running build_py
+copying GUTS/GUTS.py -> /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/GUTS/build/lib/GUTS
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/GUTS/build/lib/GUTS/GUTS.py -> /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS/lib/python3.10/site-packages/GUTS
+byte-compiling /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS/lib/python3.10/site-packages/GUTS/GUTS.py to GUTS.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS/lib/python3.10/site-packages/GUTS-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/GUTS/GUTS.egg-info to /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS/lib/python3.10/site-packages/GUTS-0.0.0-py3.10.egg-info
+running install_scripts
+Installing GUTS script to /media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/install/GUTS/lib/GUTS
+writing list of installed files to '/media/iruma/Data/AIR/ros学习记录_git/ROS-notes/ros源代码/TPC/build/GUTS/install.log'
